@@ -1,11 +1,11 @@
 <?php
 
-$serverName = "172.28.0.2";
+$serverName = "localhost";
 $dBUsername = "root";
-$dBPassword = "root";
+$dBPassword = "";
 $dBName = "klik_database";
 
-$conn = mysqli_connect($serverName, $dBUsername, $dBPassword, $dBName, 3306);
+$conn = mysqli_connect($serverName, $dBUsername, $dBPassword, $dBName, 3307);
 
 if (!$conn)
 {
