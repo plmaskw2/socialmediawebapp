@@ -10,5 +10,6 @@ CMD chmod 644 ./my.cnf
 COPY ./my.cnf /opt/lampp/mysql/my.cnf
 CMD /opt/lampp/lampp restart \
 && sleep 10 \
-&& /opt/lampp/bin/mysql -u root --password= < /klik_database.sql \
+&& /opt/lampp/bin/mysql -u root --password= -e "DROP DATABASE IF EXISTS klik_database;" \
+&& /opt/lampp/bin/mysql -u root --password= < /klik_database.sql; fi \
 && sh /startup.sh
