@@ -1,4 +1,5 @@
 Application is a copy of KLIK project https://github.com/msaad1999/KLiK-SocialMediaWebsite, files included in repository contains configuration to run app and connect to DB using docker XAMPP image.
+This code is used only for private usage (UI test environment, see https://github.com/plmaskw2/UITests)
 
 ## Requirements
 To run this application, you need:
