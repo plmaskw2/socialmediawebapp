@@ -1,3 +1,5 @@
+Application is a copy of KLIK project https://github.com/msaad1999/KLiK-SocialMediaWebsite, files included in repository contains configuration to run app and connect to DB using docker XAMPP image.
+
 ## Requirements
 To run this application, you need:
 - Docker installed on your machine
